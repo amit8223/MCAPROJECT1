@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Mechanic</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="https://kit.fontawesome.com/969d694d46.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+
+    <header>
+        <h1 id="Heading">Find Mechanic</h1>
+    </header>
+
+    <nav> 
+        <!-- class="search-container" -->
+       
+        <a href="#home"><i class="fa-solid fa-house"></i> </a>
+        <a href="#about"><i class="fa-solid fa-user"></i></a>
+        <a href="#contact"><i class="fa-solid fa-phone"></i></a>
+        <a href="#services">Services</a>
+
+
+        <span  class="search-container">
+        <form action="/search" method="get">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </span>
+       
+
+    <!-- <div class="T-I T-I-KE L3" style="user-select: none" 
+    role="button" tabindex="0" jscontroller="eIu7Db" jsaction="click:dlrqf; clickmod:dlrqf" 
+    jslog="20510; u014N:cOuCgd,Kr2w4b" gh="cm">Compose</div> -->
+
+
+    </nav>
+ <!-- Add more navigation links as needed -->
+    <section>
+        <!-- Your homepage corosal -->
+
+        <div class="slideshow-container fade">
+
+            <!-- Full images with numbers and message Info -->
+            <div class="Containers">
+              <div class="MessageInfo">1 / 3</div>
+              <img src="corosul img/corosul1.jpg" style="width:100%">
+              <div class="Info">car breakdown</div>
+            </div>
+          
+            <div class="Containers">
+              <div class="MessageInfo">2 / 3</div>
+              <img src="corosul img/corosul2.jpg" style="width:100%">
+              <div class="Info">Second Caption</div>
+            </div>
+          
+            <div class="Containers">
+              <div class="MessageInfo">3 / 3</div>
+              <img src="corosul img/corosul3.jpg" style="width:100%">
+              <div class="Info">Third Caption</div>
+            </div>
+          
+            <!-- Back and forward buttons -->
+            <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The circles/dots -->
+          <div style="text-align:center">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+          </div> 
+
+        
+        </section>
+
+
+    </section>
+
+</body>
+</html>
